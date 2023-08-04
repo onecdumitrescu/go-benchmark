@@ -23,7 +23,7 @@ func main() {
 	}
 
 	cputest.RunHashingBenchmark()
-	cputest.RunCompressingBenchmark()
+	cputest.RunCompressionBenchmark()
 	cputest.RunEncryptionBenchmark()
 
 	iotest.RunSequentialReadBenchmark()

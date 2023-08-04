@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func RunCompressingBenchmark() {
+func RunCompressionBenchmark() {
 	const bufferSize = 500 * 1024 * 1024
 	buffer := make([]byte, bufferSize)
 
